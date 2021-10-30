@@ -1,0 +1,4 @@
+"C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - NMake Makefiles" C:\Users\Ruben\OneDrive\Desktop\space\adcs-math
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/Ruben/OneDrive/Desktop/space/adcs-math/cmake-build-debug-visual-studio

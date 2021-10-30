@@ -2,23 +2,19 @@
 cmake_minimum_required(VERSION 3.17)
 
 # Setup project
-project("ADCS Math")
+project(ADCS_MATH)
 
 # Specify C++ standard
-set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_STANDARD_REQUIRED True)
+set(CMAKE_CXX_STANDARD 14)
 
-if(POLICY CMP0091)
-    # https://stackoverflow.com/a/56490614
-    cmake_policy(SET CMP0091 NEW)
-endif()
+set(ADCS_SRC
+        "${CMAKE_CURRENT_SOURCE_DIR}/src/main.cpp")
 
-# Clump source files from src
-file(GLOB ADCS_SRC "src/*.cpp" "src/**/*.cpp")
+set(ADCS_INCLUDE
+        "${CMAKE_CURRENT_SOURCE_DIR}/include"
+        "${CMAKE_CURRENT_SOURCE_DIR}/extern/eigen")
 
-# Specify include directories
-include_directories(include)
 
-file(REMOVE_RECURSE ${CMAKE_CURRENT_BINARY_DIR}/assets)
-file(MAKE_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/assets)
-file(COPY ${CMAKE_CURRENT_SOURCE_DIR}/assets DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+add_executable(ADCS_MATH "${ADCS_SRC}")
+
+target_include_directories(ADCS_MATH PRIVATE "${ADCS_INCLUDE}")
