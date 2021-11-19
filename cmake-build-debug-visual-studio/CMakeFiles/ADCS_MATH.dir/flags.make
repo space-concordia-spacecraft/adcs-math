@@ -4,7 +4,7 @@
 # compile CXX with C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.28.29910/bin/Hostx64/x64/cl.exe
 CXX_DEFINES = 
 
-CXX_INCLUDES = -IC:\Users\Ruben\OneDrive\Desktop\space\adcs-math\include -IC:\Users\Ruben\OneDrive\Desktop\space\adcs-math\extern\eigen
+CXX_INCLUDES = -IC:\Users\Ruben\OneDrive\Desktop\space\adcs-math\extern\kronos-osal\types -IC:\Users\Ruben\OneDrive\Desktop\space\adcs-math\include\utils -IC:\Users\Ruben\OneDrive\Desktop\space\adcs-math\include\sgp4
 
 CXX_FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++14
 

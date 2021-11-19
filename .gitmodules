@@ -1,0 +1,3 @@
+[submodule "extern/kronos-osal"]
+	path = extern/kronos-osal
+	url = https://github.com/space-concordia-spacecraft/kronos-osal

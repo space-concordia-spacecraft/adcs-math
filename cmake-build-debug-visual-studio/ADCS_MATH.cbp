@@ -34,8 +34,9 @@
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="C:/Users/Ruben/OneDrive/Desktop/space/adcs-math/include"/>
-					<Add directory="C:/Users/Ruben/OneDrive/Desktop/space/adcs-math/extern/eigen"/>
+					<Add directory="C:/Users/Ruben/OneDrive/Desktop/space/adcs-math/extern/kronos-osal/types"/>
+					<Add directory="C:/Users/Ruben/OneDrive/Desktop/space/adcs-math/include/utils"/>
+					<Add directory="C:/Users/Ruben/OneDrive/Desktop/space/adcs-math/include/sgp4"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
@@ -59,8 +60,9 @@
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="C:/Users/Ruben/OneDrive/Desktop/space/adcs-math/include"/>
-					<Add directory="C:/Users/Ruben/OneDrive/Desktop/space/adcs-math/extern/eigen"/>
+					<Add directory="C:/Users/Ruben/OneDrive/Desktop/space/adcs-math/extern/kronos-osal/types"/>
+					<Add directory="C:/Users/Ruben/OneDrive/Desktop/space/adcs-math/include/utils"/>
+					<Add directory="C:/Users/Ruben/OneDrive/Desktop/space/adcs-math/include/sgp4"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
 					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
@@ -88,7 +90,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Ruben/OneDrive/Desktop/space/adcs-math/src/main.cpp">
+		<Unit filename="C:/Users/Ruben/OneDrive/Desktop/space/adcs-math/src/sgp4/SGP4.cpp">
+			<Option target="ADCS_MATH"/>
+		</Unit>
+		<Unit filename="C:/Users/Ruben/OneDrive/Desktop/space/adcs-math/src/sgp4/SGP4TJK.cpp">
+			<Option target="ADCS_MATH"/>
+		</Unit>
+		<Unit filename="C:/Users/Ruben/OneDrive/Desktop/space/adcs-math/src/utils/AstroLib.cpp">
+			<Option target="ADCS_MATH"/>
+		</Unit>
+		<Unit filename="C:/Users/Ruben/OneDrive/Desktop/space/adcs-math/src/utils/DTM_12.cpp">
+			<Option target="ADCS_MATH"/>
+		</Unit>
+		<Unit filename="C:/Users/Ruben/OneDrive/Desktop/space/adcs-math/src/utils/EopSpw.cpp">
+			<Option target="ADCS_MATH"/>
+		</Unit>
+		<Unit filename="C:/Users/Ruben/OneDrive/Desktop/space/adcs-math/src/utils/MSIS_Vers.cpp">
+			<Option target="ADCS_MATH"/>
+		</Unit>
+		<Unit filename="C:/Users/Ruben/OneDrive/Desktop/space/adcs-math/src/utils/MathTimeLib.cpp">
 			<Option target="ADCS_MATH"/>
 		</Unit>
 		<Unit filename="C:/Users/Ruben/OneDrive/Desktop/space/adcs-math/CMakeLists.txt">

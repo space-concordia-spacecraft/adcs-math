@@ -37,7 +37,7 @@
   // be sure to update to your specific paths!!
   // " " tells the compiler to look in this directory first, usually the parent directory
   // you can leave generic as MathTimeLib.h, but you have to set the include directory in the property pages
-#include "D:/Codes/LIBRARY/CPP/Libraries/MathTimeLib/MathTimeLib/MathTimeLib.h"  // globals, edirection
+#include "MathTimeLib.h"  // globals, edirection
 
 
 #pragma once

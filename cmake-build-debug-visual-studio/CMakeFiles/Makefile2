@@ -70,12 +70,12 @@ clean: CMakeFiles\ADCS_MATH.dir\clean
 CMakeFiles\ADCS_MATH.dir\all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ADCS_MATH.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ADCS_MATH.dir\depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ADCS_MATH.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ADCS_MATH.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Ruben\OneDrive\Desktop\space\adcs-math\cmake-build-debug-visual-studio\CMakeFiles --progress-num=1,2 "Built target ADCS_MATH"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Ruben\OneDrive\Desktop\space\adcs-math\cmake-build-debug-visual-studio\CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target ADCS_MATH"
 .PHONY : CMakeFiles\ADCS_MATH.dir\all
 
 # Build rule for subdir invocation for target.
 CMakeFiles\ADCS_MATH.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Ruben\OneDrive\Desktop\space\adcs-math\cmake-build-debug-visual-studio\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Ruben\OneDrive\Desktop\space\adcs-math\cmake-build-debug-visual-studio\CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) CMakeFiles\ADCS_MATH.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Ruben\OneDrive\Desktop\space\adcs-math\cmake-build-debug-visual-studio\CMakeFiles 0
 .PHONY : CMakeFiles\ADCS_MATH.dir\rule

@@ -55,36 +55,162 @@ include CMakeFiles\ADCS_MATH.dir\progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles\ADCS_MATH.dir\flags.make
 
-CMakeFiles\ADCS_MATH.dir\src\main.cpp.obj: CMakeFiles\ADCS_MATH.dir\flags.make
-CMakeFiles\ADCS_MATH.dir\src\main.cpp.obj: ..\src\main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ruben\OneDrive\Desktop\space\adcs-math\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ADCS_MATH.dir/src/main.cpp.obj"
+CMakeFiles\ADCS_MATH.dir\src\utils\AstroLib.cpp.obj: CMakeFiles\ADCS_MATH.dir\flags.make
+CMakeFiles\ADCS_MATH.dir\src\utils\AstroLib.cpp.obj: ..\src\utils\AstroLib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ruben\OneDrive\Desktop\space\adcs-math\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ADCS_MATH.dir/src/utils/AstroLib.cpp.obj"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ADCS_MATH.dir\src\main.cpp.obj /FdCMakeFiles\ADCS_MATH.dir\ /FS -c C:\Users\Ruben\OneDrive\Desktop\space\adcs-math\src\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ADCS_MATH.dir\src\utils\AstroLib.cpp.obj /FdCMakeFiles\ADCS_MATH.dir\ /FS -c C:\Users\Ruben\OneDrive\Desktop\space\adcs-math\src\utils\AstroLib.cpp
 <<
 
-CMakeFiles\ADCS_MATH.dir\src\main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ADCS_MATH.dir/src/main.cpp.i"
-	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe > CMakeFiles\ADCS_MATH.dir\src\main.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Ruben\OneDrive\Desktop\space\adcs-math\src\main.cpp
+CMakeFiles\ADCS_MATH.dir\src\utils\AstroLib.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ADCS_MATH.dir/src/utils/AstroLib.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe > CMakeFiles\ADCS_MATH.dir\src\utils\AstroLib.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Ruben\OneDrive\Desktop\space\adcs-math\src\utils\AstroLib.cpp
 <<
 
-CMakeFiles\ADCS_MATH.dir\src\main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ADCS_MATH.dir/src/main.cpp.s"
+CMakeFiles\ADCS_MATH.dir\src\utils\AstroLib.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ADCS_MATH.dir/src/utils/AstroLib.cpp.s"
 	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ADCS_MATH.dir\src\main.cpp.s /c C:\Users\Ruben\OneDrive\Desktop\space\adcs-math\src\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ADCS_MATH.dir\src\utils\AstroLib.cpp.s /c C:\Users\Ruben\OneDrive\Desktop\space\adcs-math\src\utils\AstroLib.cpp
+<<
+
+CMakeFiles\ADCS_MATH.dir\src\utils\DTM_12.cpp.obj: CMakeFiles\ADCS_MATH.dir\flags.make
+CMakeFiles\ADCS_MATH.dir\src\utils\DTM_12.cpp.obj: ..\src\utils\DTM_12.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ruben\OneDrive\Desktop\space\adcs-math\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ADCS_MATH.dir/src/utils/DTM_12.cpp.obj"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ADCS_MATH.dir\src\utils\DTM_12.cpp.obj /FdCMakeFiles\ADCS_MATH.dir\ /FS -c C:\Users\Ruben\OneDrive\Desktop\space\adcs-math\src\utils\DTM_12.cpp
+<<
+
+CMakeFiles\ADCS_MATH.dir\src\utils\DTM_12.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ADCS_MATH.dir/src/utils/DTM_12.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe > CMakeFiles\ADCS_MATH.dir\src\utils\DTM_12.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Ruben\OneDrive\Desktop\space\adcs-math\src\utils\DTM_12.cpp
+<<
+
+CMakeFiles\ADCS_MATH.dir\src\utils\DTM_12.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ADCS_MATH.dir/src/utils/DTM_12.cpp.s"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ADCS_MATH.dir\src\utils\DTM_12.cpp.s /c C:\Users\Ruben\OneDrive\Desktop\space\adcs-math\src\utils\DTM_12.cpp
+<<
+
+CMakeFiles\ADCS_MATH.dir\src\utils\EopSpw.cpp.obj: CMakeFiles\ADCS_MATH.dir\flags.make
+CMakeFiles\ADCS_MATH.dir\src\utils\EopSpw.cpp.obj: ..\src\utils\EopSpw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ruben\OneDrive\Desktop\space\adcs-math\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ADCS_MATH.dir/src/utils/EopSpw.cpp.obj"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ADCS_MATH.dir\src\utils\EopSpw.cpp.obj /FdCMakeFiles\ADCS_MATH.dir\ /FS -c C:\Users\Ruben\OneDrive\Desktop\space\adcs-math\src\utils\EopSpw.cpp
+<<
+
+CMakeFiles\ADCS_MATH.dir\src\utils\EopSpw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ADCS_MATH.dir/src/utils/EopSpw.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe > CMakeFiles\ADCS_MATH.dir\src\utils\EopSpw.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Ruben\OneDrive\Desktop\space\adcs-math\src\utils\EopSpw.cpp
+<<
+
+CMakeFiles\ADCS_MATH.dir\src\utils\EopSpw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ADCS_MATH.dir/src/utils/EopSpw.cpp.s"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ADCS_MATH.dir\src\utils\EopSpw.cpp.s /c C:\Users\Ruben\OneDrive\Desktop\space\adcs-math\src\utils\EopSpw.cpp
+<<
+
+CMakeFiles\ADCS_MATH.dir\src\utils\MathTimeLib.cpp.obj: CMakeFiles\ADCS_MATH.dir\flags.make
+CMakeFiles\ADCS_MATH.dir\src\utils\MathTimeLib.cpp.obj: ..\src\utils\MathTimeLib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ruben\OneDrive\Desktop\space\adcs-math\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ADCS_MATH.dir/src/utils/MathTimeLib.cpp.obj"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ADCS_MATH.dir\src\utils\MathTimeLib.cpp.obj /FdCMakeFiles\ADCS_MATH.dir\ /FS -c C:\Users\Ruben\OneDrive\Desktop\space\adcs-math\src\utils\MathTimeLib.cpp
+<<
+
+CMakeFiles\ADCS_MATH.dir\src\utils\MathTimeLib.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ADCS_MATH.dir/src/utils/MathTimeLib.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe > CMakeFiles\ADCS_MATH.dir\src\utils\MathTimeLib.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Ruben\OneDrive\Desktop\space\adcs-math\src\utils\MathTimeLib.cpp
+<<
+
+CMakeFiles\ADCS_MATH.dir\src\utils\MathTimeLib.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ADCS_MATH.dir/src/utils/MathTimeLib.cpp.s"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ADCS_MATH.dir\src\utils\MathTimeLib.cpp.s /c C:\Users\Ruben\OneDrive\Desktop\space\adcs-math\src\utils\MathTimeLib.cpp
+<<
+
+CMakeFiles\ADCS_MATH.dir\src\utils\MSIS_Vers.cpp.obj: CMakeFiles\ADCS_MATH.dir\flags.make
+CMakeFiles\ADCS_MATH.dir\src\utils\MSIS_Vers.cpp.obj: ..\src\utils\MSIS_Vers.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ruben\OneDrive\Desktop\space\adcs-math\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ADCS_MATH.dir/src/utils/MSIS_Vers.cpp.obj"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ADCS_MATH.dir\src\utils\MSIS_Vers.cpp.obj /FdCMakeFiles\ADCS_MATH.dir\ /FS -c C:\Users\Ruben\OneDrive\Desktop\space\adcs-math\src\utils\MSIS_Vers.cpp
+<<
+
+CMakeFiles\ADCS_MATH.dir\src\utils\MSIS_Vers.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ADCS_MATH.dir/src/utils/MSIS_Vers.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe > CMakeFiles\ADCS_MATH.dir\src\utils\MSIS_Vers.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Ruben\OneDrive\Desktop\space\adcs-math\src\utils\MSIS_Vers.cpp
+<<
+
+CMakeFiles\ADCS_MATH.dir\src\utils\MSIS_Vers.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ADCS_MATH.dir/src/utils/MSIS_Vers.cpp.s"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ADCS_MATH.dir\src\utils\MSIS_Vers.cpp.s /c C:\Users\Ruben\OneDrive\Desktop\space\adcs-math\src\utils\MSIS_Vers.cpp
+<<
+
+CMakeFiles\ADCS_MATH.dir\src\sgp4\SGP4.cpp.obj: CMakeFiles\ADCS_MATH.dir\flags.make
+CMakeFiles\ADCS_MATH.dir\src\sgp4\SGP4.cpp.obj: ..\src\sgp4\SGP4.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ruben\OneDrive\Desktop\space\adcs-math\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ADCS_MATH.dir/src/sgp4/SGP4.cpp.obj"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ADCS_MATH.dir\src\sgp4\SGP4.cpp.obj /FdCMakeFiles\ADCS_MATH.dir\ /FS -c C:\Users\Ruben\OneDrive\Desktop\space\adcs-math\src\sgp4\SGP4.cpp
+<<
+
+CMakeFiles\ADCS_MATH.dir\src\sgp4\SGP4.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ADCS_MATH.dir/src/sgp4/SGP4.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe > CMakeFiles\ADCS_MATH.dir\src\sgp4\SGP4.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Ruben\OneDrive\Desktop\space\adcs-math\src\sgp4\SGP4.cpp
+<<
+
+CMakeFiles\ADCS_MATH.dir\src\sgp4\SGP4.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ADCS_MATH.dir/src/sgp4/SGP4.cpp.s"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ADCS_MATH.dir\src\sgp4\SGP4.cpp.s /c C:\Users\Ruben\OneDrive\Desktop\space\adcs-math\src\sgp4\SGP4.cpp
+<<
+
+CMakeFiles\ADCS_MATH.dir\src\sgp4\SGP4TJK.cpp.obj: CMakeFiles\ADCS_MATH.dir\flags.make
+CMakeFiles\ADCS_MATH.dir\src\sgp4\SGP4TJK.cpp.obj: ..\src\sgp4\SGP4TJK.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Ruben\OneDrive\Desktop\space\adcs-math\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ADCS_MATH.dir/src/sgp4/SGP4TJK.cpp.obj"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ADCS_MATH.dir\src\sgp4\SGP4TJK.cpp.obj /FdCMakeFiles\ADCS_MATH.dir\ /FS -c C:\Users\Ruben\OneDrive\Desktop\space\adcs-math\src\sgp4\SGP4TJK.cpp
+<<
+
+CMakeFiles\ADCS_MATH.dir\src\sgp4\SGP4TJK.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ADCS_MATH.dir/src/sgp4/SGP4TJK.cpp.i"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe > CMakeFiles\ADCS_MATH.dir\src\sgp4\SGP4TJK.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Ruben\OneDrive\Desktop\space\adcs-math\src\sgp4\SGP4TJK.cpp
+<<
+
+CMakeFiles\ADCS_MATH.dir\src\sgp4\SGP4TJK.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ADCS_MATH.dir/src/sgp4/SGP4TJK.cpp.s"
+	C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ADCS_MATH.dir\src\sgp4\SGP4TJK.cpp.s /c C:\Users\Ruben\OneDrive\Desktop\space\adcs-math\src\sgp4\SGP4TJK.cpp
 <<
 
 # Object files for target ADCS_MATH
 ADCS_MATH_OBJECTS = \
-"CMakeFiles\ADCS_MATH.dir\src\main.cpp.obj"
+"CMakeFiles\ADCS_MATH.dir\src\utils\AstroLib.cpp.obj" \
+"CMakeFiles\ADCS_MATH.dir\src\utils\DTM_12.cpp.obj" \
+"CMakeFiles\ADCS_MATH.dir\src\utils\EopSpw.cpp.obj" \
+"CMakeFiles\ADCS_MATH.dir\src\utils\MathTimeLib.cpp.obj" \
+"CMakeFiles\ADCS_MATH.dir\src\utils\MSIS_Vers.cpp.obj" \
+"CMakeFiles\ADCS_MATH.dir\src\sgp4\SGP4.cpp.obj" \
+"CMakeFiles\ADCS_MATH.dir\src\sgp4\SGP4TJK.cpp.obj"
 
 # External object files for target ADCS_MATH
 ADCS_MATH_EXTERNAL_OBJECTS =
 
-ADCS_MATH.exe: CMakeFiles\ADCS_MATH.dir\src\main.cpp.obj
+ADCS_MATH.exe: CMakeFiles\ADCS_MATH.dir\src\utils\AstroLib.cpp.obj
+ADCS_MATH.exe: CMakeFiles\ADCS_MATH.dir\src\utils\DTM_12.cpp.obj
+ADCS_MATH.exe: CMakeFiles\ADCS_MATH.dir\src\utils\EopSpw.cpp.obj
+ADCS_MATH.exe: CMakeFiles\ADCS_MATH.dir\src\utils\MathTimeLib.cpp.obj
+ADCS_MATH.exe: CMakeFiles\ADCS_MATH.dir\src\utils\MSIS_Vers.cpp.obj
+ADCS_MATH.exe: CMakeFiles\ADCS_MATH.dir\src\sgp4\SGP4.cpp.obj
+ADCS_MATH.exe: CMakeFiles\ADCS_MATH.dir\src\sgp4\SGP4TJK.cpp.obj
 ADCS_MATH.exe: CMakeFiles\ADCS_MATH.dir\build.make
 ADCS_MATH.exe: CMakeFiles\ADCS_MATH.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Ruben\OneDrive\Desktop\space\adcs-math\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ADCS_MATH.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Ruben\OneDrive\Desktop\space\adcs-math\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable ADCS_MATH.exe"
 	"C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\ADCS_MATH.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests -- C:\PROGRA~2\MICROS~1\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\ADCS_MATH.dir\objects1.rsp @<<
  /out:ADCS_MATH.exe /implib:ADCS_MATH.lib /pdb:C:\Users\Ruben\OneDrive\Desktop\space\adcs-math\cmake-build-debug-visual-studio\ADCS_MATH.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

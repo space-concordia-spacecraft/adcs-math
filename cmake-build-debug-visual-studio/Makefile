@@ -118,29 +118,173 @@ ADCS_MATH\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ADCS_MATH.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ADCS_MATH.dir\build
 .PHONY : ADCS_MATH\fast
 
-src\main.obj: src\main.cpp.obj
-.PHONY : src\main.obj
+src\sgp4\SGP4.obj: src\sgp4\SGP4.cpp.obj
+.PHONY : src\sgp4\SGP4.obj
 
 # target to build an object file
-src\main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ADCS_MATH.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ADCS_MATH.dir\src\main.cpp.obj
-.PHONY : src\main.cpp.obj
+src\sgp4\SGP4.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ADCS_MATH.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ADCS_MATH.dir\src\sgp4\SGP4.cpp.obj
+.PHONY : src\sgp4\SGP4.cpp.obj
 
-src\main.i: src\main.cpp.i
-.PHONY : src\main.i
+src\sgp4\SGP4.i: src\sgp4\SGP4.cpp.i
+.PHONY : src\sgp4\SGP4.i
 
 # target to preprocess a source file
-src\main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ADCS_MATH.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ADCS_MATH.dir\src\main.cpp.i
-.PHONY : src\main.cpp.i
+src\sgp4\SGP4.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ADCS_MATH.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ADCS_MATH.dir\src\sgp4\SGP4.cpp.i
+.PHONY : src\sgp4\SGP4.cpp.i
 
-src\main.s: src\main.cpp.s
-.PHONY : src\main.s
+src\sgp4\SGP4.s: src\sgp4\SGP4.cpp.s
+.PHONY : src\sgp4\SGP4.s
 
 # target to generate assembly for a file
-src\main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ADCS_MATH.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ADCS_MATH.dir\src\main.cpp.s
-.PHONY : src\main.cpp.s
+src\sgp4\SGP4.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ADCS_MATH.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ADCS_MATH.dir\src\sgp4\SGP4.cpp.s
+.PHONY : src\sgp4\SGP4.cpp.s
+
+src\sgp4\SGP4TJK.obj: src\sgp4\SGP4TJK.cpp.obj
+.PHONY : src\sgp4\SGP4TJK.obj
+
+# target to build an object file
+src\sgp4\SGP4TJK.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ADCS_MATH.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ADCS_MATH.dir\src\sgp4\SGP4TJK.cpp.obj
+.PHONY : src\sgp4\SGP4TJK.cpp.obj
+
+src\sgp4\SGP4TJK.i: src\sgp4\SGP4TJK.cpp.i
+.PHONY : src\sgp4\SGP4TJK.i
+
+# target to preprocess a source file
+src\sgp4\SGP4TJK.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ADCS_MATH.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ADCS_MATH.dir\src\sgp4\SGP4TJK.cpp.i
+.PHONY : src\sgp4\SGP4TJK.cpp.i
+
+src\sgp4\SGP4TJK.s: src\sgp4\SGP4TJK.cpp.s
+.PHONY : src\sgp4\SGP4TJK.s
+
+# target to generate assembly for a file
+src\sgp4\SGP4TJK.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ADCS_MATH.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ADCS_MATH.dir\src\sgp4\SGP4TJK.cpp.s
+.PHONY : src\sgp4\SGP4TJK.cpp.s
+
+src\utils\AstroLib.obj: src\utils\AstroLib.cpp.obj
+.PHONY : src\utils\AstroLib.obj
+
+# target to build an object file
+src\utils\AstroLib.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ADCS_MATH.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ADCS_MATH.dir\src\utils\AstroLib.cpp.obj
+.PHONY : src\utils\AstroLib.cpp.obj
+
+src\utils\AstroLib.i: src\utils\AstroLib.cpp.i
+.PHONY : src\utils\AstroLib.i
+
+# target to preprocess a source file
+src\utils\AstroLib.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ADCS_MATH.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ADCS_MATH.dir\src\utils\AstroLib.cpp.i
+.PHONY : src\utils\AstroLib.cpp.i
+
+src\utils\AstroLib.s: src\utils\AstroLib.cpp.s
+.PHONY : src\utils\AstroLib.s
+
+# target to generate assembly for a file
+src\utils\AstroLib.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ADCS_MATH.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ADCS_MATH.dir\src\utils\AstroLib.cpp.s
+.PHONY : src\utils\AstroLib.cpp.s
+
+src\utils\DTM_12.obj: src\utils\DTM_12.cpp.obj
+.PHONY : src\utils\DTM_12.obj
+
+# target to build an object file
+src\utils\DTM_12.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ADCS_MATH.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ADCS_MATH.dir\src\utils\DTM_12.cpp.obj
+.PHONY : src\utils\DTM_12.cpp.obj
+
+src\utils\DTM_12.i: src\utils\DTM_12.cpp.i
+.PHONY : src\utils\DTM_12.i
+
+# target to preprocess a source file
+src\utils\DTM_12.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ADCS_MATH.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ADCS_MATH.dir\src\utils\DTM_12.cpp.i
+.PHONY : src\utils\DTM_12.cpp.i
+
+src\utils\DTM_12.s: src\utils\DTM_12.cpp.s
+.PHONY : src\utils\DTM_12.s
+
+# target to generate assembly for a file
+src\utils\DTM_12.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ADCS_MATH.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ADCS_MATH.dir\src\utils\DTM_12.cpp.s
+.PHONY : src\utils\DTM_12.cpp.s
+
+src\utils\EopSpw.obj: src\utils\EopSpw.cpp.obj
+.PHONY : src\utils\EopSpw.obj
+
+# target to build an object file
+src\utils\EopSpw.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ADCS_MATH.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ADCS_MATH.dir\src\utils\EopSpw.cpp.obj
+.PHONY : src\utils\EopSpw.cpp.obj
+
+src\utils\EopSpw.i: src\utils\EopSpw.cpp.i
+.PHONY : src\utils\EopSpw.i
+
+# target to preprocess a source file
+src\utils\EopSpw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ADCS_MATH.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ADCS_MATH.dir\src\utils\EopSpw.cpp.i
+.PHONY : src\utils\EopSpw.cpp.i
+
+src\utils\EopSpw.s: src\utils\EopSpw.cpp.s
+.PHONY : src\utils\EopSpw.s
+
+# target to generate assembly for a file
+src\utils\EopSpw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ADCS_MATH.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ADCS_MATH.dir\src\utils\EopSpw.cpp.s
+.PHONY : src\utils\EopSpw.cpp.s
+
+src\utils\MSIS_Vers.obj: src\utils\MSIS_Vers.cpp.obj
+.PHONY : src\utils\MSIS_Vers.obj
+
+# target to build an object file
+src\utils\MSIS_Vers.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ADCS_MATH.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ADCS_MATH.dir\src\utils\MSIS_Vers.cpp.obj
+.PHONY : src\utils\MSIS_Vers.cpp.obj
+
+src\utils\MSIS_Vers.i: src\utils\MSIS_Vers.cpp.i
+.PHONY : src\utils\MSIS_Vers.i
+
+# target to preprocess a source file
+src\utils\MSIS_Vers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ADCS_MATH.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ADCS_MATH.dir\src\utils\MSIS_Vers.cpp.i
+.PHONY : src\utils\MSIS_Vers.cpp.i
+
+src\utils\MSIS_Vers.s: src\utils\MSIS_Vers.cpp.s
+.PHONY : src\utils\MSIS_Vers.s
+
+# target to generate assembly for a file
+src\utils\MSIS_Vers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ADCS_MATH.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ADCS_MATH.dir\src\utils\MSIS_Vers.cpp.s
+.PHONY : src\utils\MSIS_Vers.cpp.s
+
+src\utils\MathTimeLib.obj: src\utils\MathTimeLib.cpp.obj
+.PHONY : src\utils\MathTimeLib.obj
+
+# target to build an object file
+src\utils\MathTimeLib.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ADCS_MATH.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ADCS_MATH.dir\src\utils\MathTimeLib.cpp.obj
+.PHONY : src\utils\MathTimeLib.cpp.obj
+
+src\utils\MathTimeLib.i: src\utils\MathTimeLib.cpp.i
+.PHONY : src\utils\MathTimeLib.i
+
+# target to preprocess a source file
+src\utils\MathTimeLib.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ADCS_MATH.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ADCS_MATH.dir\src\utils\MathTimeLib.cpp.i
+.PHONY : src\utils\MathTimeLib.cpp.i
+
+src\utils\MathTimeLib.s: src\utils\MathTimeLib.cpp.s
+.PHONY : src\utils\MathTimeLib.s
+
+# target to generate assembly for a file
+src\utils\MathTimeLib.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ADCS_MATH.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ADCS_MATH.dir\src\utils\MathTimeLib.cpp.s
+.PHONY : src\utils\MathTimeLib.cpp.s
 
 # Help Target
 help:
@@ -151,9 +295,27 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... ADCS_MATH
-	@echo ... src/main.obj
-	@echo ... src/main.i
-	@echo ... src/main.s
+	@echo ... src/sgp4/SGP4.obj
+	@echo ... src/sgp4/SGP4.i
+	@echo ... src/sgp4/SGP4.s
+	@echo ... src/sgp4/SGP4TJK.obj
+	@echo ... src/sgp4/SGP4TJK.i
+	@echo ... src/sgp4/SGP4TJK.s
+	@echo ... src/utils/AstroLib.obj
+	@echo ... src/utils/AstroLib.i
+	@echo ... src/utils/AstroLib.s
+	@echo ... src/utils/DTM_12.obj
+	@echo ... src/utils/DTM_12.i
+	@echo ... src/utils/DTM_12.s
+	@echo ... src/utils/EopSpw.obj
+	@echo ... src/utils/EopSpw.i
+	@echo ... src/utils/EopSpw.s
+	@echo ... src/utils/MSIS_Vers.obj
+	@echo ... src/utils/MSIS_Vers.i
+	@echo ... src/utils/MSIS_Vers.s
+	@echo ... src/utils/MathTimeLib.obj
+	@echo ... src/utils/MathTimeLib.i
+	@echo ... src/utils/MathTimeLib.s
 .PHONY : help
 
 

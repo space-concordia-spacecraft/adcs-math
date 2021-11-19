@@ -30,7 +30,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-#include "D:/Codes/LIBRARY/CPP/Libraries/MathTimeLib/MathTimeLib/MathTimeLib.h"  // pi, infinite, undefined
+#include "MathTimeLib.h"  // pi, infinite, undefined
 
 
 /*    *****************************************************************
